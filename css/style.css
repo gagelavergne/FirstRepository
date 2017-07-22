@@ -1,49 +1,80 @@
-h1 {	font-size: 28px;
-		text-align: center;
-		margin: 0;
-		margin-bottom: 28px;
-		font-family: Georgia;
-		color: #eee;
-	}
-
-h2 {	font-size: 24px;
-		margin: 0 auto;
-}
 
 
-	.veryTopHeader {
 
-		background-color: black;
-	}
 
 body {
-
-	background-color: #efeee7;
-	font-family: "Georgia",Times,serif;
-	color: #333333;
-	margin: 0;
-	padding: 0;
-
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #efeee7;
 }
+
 header {
 
 	background-color: #333333;
+
 }
 
-body {
+
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+}
+
+h2 {
+
+	font-size: 24px;
+	
+
+}
+
+.container {
+
+	margin: 0 auto;
+	width: 1024px;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
 
 	float: left;
-    margin: 0 0 10px 10px;
-
 }
 
-.mainBio {
-
+#main-bio {
+	
 	width: 70%;
 
 }
 
-.contact {
-
+#contact-info {
+	
 	width: 30%;
+
 }
+
+#bio-image {
+	
+	margin-right: 20px;
+	width: 200px;
+	height: 200px;
+
+}
+
+a {
+
+	color: #d21034;
+
+}
+
+
+
+
